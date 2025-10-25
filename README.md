@@ -6,15 +6,15 @@
 
 ## Project Goal
 
-[cite_start]The main objective was to gain practical understanding of Suricata's operation in IDS mode by[cite: 4341]:
-* [cite_start]Setting up a simulated network environment (testbed)[cite: 4139].
-* [cite_start]Launching various types of network attacks[cite: 4125].
-* [cite_start]Analyzing Suricata's detection capabilities, log generation, and rule logic[cite: 4169, 4342].
+The main objective was to gain practical understanding of Suricata's operation in IDS mode by[cite: 4341]:
+* Setting up a simulated network environment (testbed)[cite: 4139].
+*Launching various types of network attacks[cite: 4125].
+*Analyzing Suricata's detection capabilities, log generation, and rule logic[cite: 4169, 4342].
 
 ## Testbed Setup (GNS3)
 
-[cite_start]A simplified corporate network was simulated using GNS3 to test Suricata's effectiveness [cite: 4138, 4351-4352]. [cite_start]The topology included [cite: 4353-4357]:
-* [cite_start]An **internal zone** ("green area") with client VPCs (Terminals A1-A4, B1-B3), access switches (Switch2, Switch3), a main router (Router1), and the Suricata IDS machine (Ubuntu VM)[cite: 4354].
+A simplified corporate network was simulated using GNS3 to test Suricata's effectiveness . The topology included :
+* An **internal zone** ("green area") with client VPCs (Terminals A1-A4, B1-B3), access switches (Switch2, Switch3), a main router (Router1), and the Suricata IDS machine (Ubuntu VM)[cite: 4354].
 * [cite_start]An **attack zone** ("red area") with the attacker machine (Kali Linux VM), its access switch (Switch1), and router (Router3)[cite: 4356].
 * [cite_start]An **interconnection zone** linking the internal and attack zones via Router2[cite: 4355].
 * [cite_start]A central **SPAN-capable switch** (SPAN-CentralSwitch - Cisco IOU L2 image) mirroring traffic between Router1 (eth0/0) and Router2 (eth0/1) to the Suricata VM (via eth0/3) for passive monitoring [cite: 4357, 4406-4412].
