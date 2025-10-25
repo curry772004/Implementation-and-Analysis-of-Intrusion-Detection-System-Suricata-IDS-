@@ -29,7 +29,7 @@ A simplified corporate network was simulated using GNS3 to test Suricata's effec
 * **Cisco IOU Images:** L3 for Routers (`i86bi-linux-l3-adventerprisek9-15.5.2T.bin`), L2 (`i86bi_linux_l2-ipbasek9-ms.may8-2013-team_track`) for the SPAN switch.
 * **Operating Systems:** Kali Linux (attacker), Ubuntu (Suricata host).
 * **Suricata:** Open-source IDS engine installed on Ubuntu machine.
-* **VPCS:** Simulating end-user terminals.
+* **IP-term:** Simulating end-user terminals.
 
 ---
 
@@ -52,8 +52,6 @@ Various attacks were launched from Kali Linux (10.0.1.1) against targets in the 
 ## Performance Observation
 
 * During high-volume attacks (like SYN Floods), an increase in the CPU usage of the Suricata VM was observed (e.g., from ≈50% baseline to ≈80%). This highlights that performance can be impacted by traffic load, especially on resource-constrained systems.
-
----
 
 ## Repository Contents
 
