@@ -2,7 +2,7 @@
 
 ## Context
 
-[cite_start]This repository contains the materials for a project developed as part of the **Security (Segurança)** course unit at the **Coimbra Institute of Engineering (ISEC)** during the 2024/2025 academic year[cite: 4316]. [cite_start]The project focused on the **experimental study** of Suricata as a network Intrusion Detection System[cite: 4124]. [cite_start]The primary goal was **not just to use the tool, but to understand *how* it works** by exploring theoretical foundations and practical application[cite: 4135, 4124].
+**This repository contains the materials for a project developed as part of the **Security (Segurança)** course unit at the **Coimbra Institute of Engineering (ISEC)** during the 2024/2025 academic year[cite: 4316]. [cite_start]The project focused on the **experimental study** of Suricata as a network Intrusion Detection System[cite: 4124]. [cite_start]The primary goal was **not just to use the tool, but to understand *how* it works** by exploring theoretical foundations and practical application[cite: 4135, 4124].
 
 ## Project Goal
 
